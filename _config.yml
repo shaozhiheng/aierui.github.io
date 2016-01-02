@@ -106,8 +106,7 @@ baidu_analytics: 3365b4c434cca583f2a406c1e9dae3b0
 # Deployment  站点部署到github要配置这里, 非常重要
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: github    #部署类型, 本文使用Github
-  repository: git@github.com:Aierui/aierui.github.io.git  #部署的仓库的SSH
-  branch: master   #部署分支,一般使用master主分支
-plugins: 
-- hexo-generator-feed   #此插件用于RSS订阅, 以后有时间再介绍
+type: github
+repository: https://github.com/Aierui/aierui.github.io.git
+branch: master
+plugins: -hexo-generator-feed
